@@ -1,3 +1,4 @@
+```
 const encode = input => [...input]
 .map((x, i) => [x.charCodeAt(0), i])
 .sort()
@@ -68,7 +69,7 @@ function decoding(numbers){
   
   return decArr(NormallSort(separation(inputText(numbers))).map(x=>x[1]))
 }
-
+```
 
 console.log(decoding(encode("Test this decodera")))
 console.log(decoding(encode("One more Test this decodera")))
